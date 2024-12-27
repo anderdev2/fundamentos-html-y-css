@@ -1,0 +1,1 @@
+comprobar si se logro conectar correctamente el repostiro despues de formatear la pc
