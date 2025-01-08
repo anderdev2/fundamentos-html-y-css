@@ -1,0 +1,31 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /* para eliminar los puntos o numero de una lista */
+    padding-left: 0;
+    background-color:darkgreen;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ /*Pseudo clases*/
+.main-nav__item a:hover {  /*cuando paso el mouse encima cambia de color*/
+ color: aquamarine;
+}
+
+.main-nav__item a:active {  /*al hacer click izquierdo cambia de color*/
+    color: brown;
+}
+
+/*Pseudo elementos*/
+
+.main-nav__item a::after{   /*agrega despues de la clase el contenido*/
+    content: " | ";
+}
