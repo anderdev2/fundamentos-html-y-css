@@ -1,0 +1,14 @@
+p {
+    color: darkcyan;
+    font-size: 24px;
+}
+
+/* class */
+.parrafo {
+    color: blue;
+}
+
+/* ID */
+#texto2 {
+    color: brown;
+}
